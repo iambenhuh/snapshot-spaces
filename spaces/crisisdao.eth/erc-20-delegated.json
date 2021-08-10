@@ -1,0 +1,25 @@
+[
+    {
+        "name": "erc20-balance-of",
+        "params": {
+            "symbol": "CRISIS",
+            "address": "0x992f9bb313368ac11977b62490a83eeee54d9e1f",
+            "decimals": 18
+        }
+    },
+    {
+        "name": "delegation",
+        "params": {
+            "symbol": "CRISIS & CRISIS DEL (delegated)",
+            "strategies": [
+                {
+                    "name": "erc20-balance-of",
+                    "params": {
+                        "address": "0x992f9bb313368ac11977b62490a83eeee54d9e1f",
+                        "decimals": 18
+                    }
+                },
+            ]
+        }
+    }
+]
